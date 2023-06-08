@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -p -d . .. [0-9a-zA-Z]* | sort -d -k1,1 -t/ | awk '{ printf "%s, ", $0 } END { printf "\n" }' 
+ls -amvp 
