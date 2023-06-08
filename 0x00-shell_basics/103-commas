@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -d -- . .. [0-9a-zA-Z]* | sort -d -k1,1 -t/ | tr '\n' ',' 
+ls -d -- . .. [0-9a-zA-Z]* | sort -d -k1,1 -t/ | tr '\n' ', ' 
